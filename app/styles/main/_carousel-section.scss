@@ -1,0 +1,219 @@
+.slider-section {
+
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 55px;
+    
+}
+
+.slider-section img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.carousel-inner {
+
+    position: relative;
+    @include clearfix;
+
+    .item {
+      @include clearfix;
+      height: 100%;
+    }
+
+}
+
+
+.carousel-inner .item:before{
+
+    background: rgba(0, 0, 0, 0.52);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+}
+
+.carousel-inner .item .carousel-caption {
+
+    top: 30%;
+    z-index: 999;
+
+}
+
+.carousel-inner .item .carousel-caption h1 {
+
+    background: #E8645A;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: 45%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 8px;
+
+}
+
+.carousel-inner .item .carousel-caption p{
+
+    background: #3f4646;
+    border-radius: 4px;
+    clear: both;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25,6px;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    text-align: center;
+    text-shadow: none;
+    width: 75%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+
+}
+
+.carousel-inner .item .carousel-caption a{
+
+    border: 2px solid #1abc9c;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 13px 30px;
+    text-shadow: none;
+    text-transform: uppercase;
+
+}
+.carousel-inner .item .carousel-caption a:hover {
+
+    background: #1abc9c;
+
+}
+.carousel-control {
+
+    background-image: none !important;
+    background: red;
+
+}
+
+.carousel-control span {
+    
+    color: #fff;
+
+}
+
+a.carousel-control.left {
+
+    -moz-border-radius: 0 6px 6px 0;  
+    -o-border-radius: 0 6px 6px 0;
+    -webkit-border-radius: 0 6px 6px 0; 
+    border-radius: 0 6px 6px 0;
+
+}
+
+a.carousel-control.right {
+
+    -moz-border-radius: 6px 0 0 6px;  
+    -o-border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px; 
+    border-radius: 6px 0 0 6px;
+
+}
+
+
+a.carousel-control.left,
+a.carousel-control.right {
+    
+    @extend %controls;
+    
+}
+
+a.carousel-control.left > span {
+
+    left: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 4px;
+
+}
+
+a.carousel-control.right > span {
+
+    left: 15px;
+    margin: 0 auto;
+    position: absolute;
+    top: 4px;
+
+}
+
+.carousel-control.right {
+
+    background: #46bfa9;
+    height: 100%;
+    width: 0;
+    float: none;
+   
+}
+
+.carousel-control.left {
+
+    background: #46bfa9;
+    height: 100%;
+    width: 0;
+    float: none;
+    
+}
+
+.carousel-control span {
+    
+    color: #fff;
+    font-size: 35px;
+
+}
+
+.carousel-indicators {
+
+  top: 540px;
+
+}
+
+.carousel-indicators > li,
+.carousel-indicators > li.active{
+
+    background: #7f8c8c;
+    border-radius: 0;
+    border: solid 1px grey;
+    height: 5px;
+    margin: 0;
+    text-indent: 0;
+    width: 60px;
+
+}
+.carousel-indicators > li.active {
+
+    background: #C03C35;
+
+}

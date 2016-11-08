@@ -1,0 +1,20 @@
+%controls {
+
+  -moz-box-shadow: inset 0px -4px 0px $hover-color-bottom;
+  -o-box-shadow: inset 0px -4px 0px $hover-color-bottom;
+  -webkit-box-shadow: inset 0px -4px 0px $hover-color-bottom;
+  background-image: none !important;
+  background: $hover-color;
+  border: none;
+  box-shadow: inset 0px -4px 0px $hover-color-bottom;
+  display: block;
+  height: 45px;
+  position: absolute;
+  text-align: center;
+  text-align: center;
+  top: 45%;
+  width: 45px;
+  z-index: 999;
+  float: none;
+  
+}

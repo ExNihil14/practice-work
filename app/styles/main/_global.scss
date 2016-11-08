@@ -1,0 +1,50 @@
+$bg-color: #76C7C0;
+$hover-color:#e5655d;
+$hover-color-bottom:#C03C35;
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,600italic,700,800,400italic);
+
+*, *:before, *:after {
+
+  -webkit-box-sizing: border-box; /* Нужно для мобильного WebKit */
+  -moz-box-sizing: border-box; /* Нужно для Firefox */
+  box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/RobotoCondensed-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+	height: 100%;
+	overflow: visible;
+	font-family: 'roboto_condensedregular';
+	background: #f3f3f3;
+	font-size: 100%;
+
+}
+
+img {
+
+	max-width: 100%;
+	height: auto !important;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+	
+}
+
+a:focus {
+
+	text-decoration: none;
+
+}
+
